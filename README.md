@@ -1,8 +1,8 @@
 # Computer Science Projects
 
-This is where all my projects that have to do with Computer Science will go
+This is everything pretaining to Computer Science will go. This includes past projects, coursework, and documentations of things I find useful.
 
-Types of projects include:
+#### <u>Types of projects include:</u>
 
 * [Java](/Java)
 * [C++](/C++)
@@ -12,7 +12,7 @@ Types of projects include:
 * [Python](/Python)
 * [Documentations](/Documentations)
 
-Topics within these projects include (but not limited to):
+#### <u>Topics within these projects include (but not limited to):</u>
 
 * Database
     * Linked List
