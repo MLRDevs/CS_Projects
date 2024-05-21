@@ -4,13 +4,13 @@ This is where all my projects that have to do with Computer Science will go
 
 Types of projects include:
 
-* Java
-* C++
-* HTML
-* CSS
-* JavaScript
-* Python
-* Documentations
+* [Java](/Java)
+* [C++](/C++)
+* [HTML](/HTML)
+    * CSS
+    * JavaScript
+* [Python](/Python)
+* [Documentations](/Documentations)
 
 Topics within these projects include (but not limited to):
 
