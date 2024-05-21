@@ -1,0 +1,74 @@
+body {
+    background-color: navy;
+}
+#Top {
+    position: sticky;
+    top: 0;
+    background-color: navy;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+table, td {
+    background-color: white;
+    padding: 5px;
+}
+hr {
+    position: sticky;
+    top: 115;
+}
+a {
+    color: black;
+}
+form {
+    color: white;
+}
+#Container {
+    display: grid;
+    grid-template-columns: 25px, 25px, 25px, 25px;
+    grid-template-rows: auto auto auto auto
+}
+#lable {
+    text-align: center;
+    color: white;
+    position: sticky;
+}
+#AssignmentsForm {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#WeightsForm {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+#FinalGradeButton {
+    text-align: center;
+}
+#GradePercentage {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    color: white;
+}
+#GPercent {
+    text-align: center;
+    height: 21.34;
+    width: 55%;
+}
+#FinalGrade {
+    text-align: center;
+    color: white;
+}
+#SemesterForm {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#SemesterGPA {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: white;
+}
+#FinalGPA {
+    color: white;
+    text-align: center;
+}

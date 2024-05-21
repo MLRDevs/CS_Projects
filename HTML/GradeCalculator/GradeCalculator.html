@@ -1,0 +1,63 @@
+<!-- Alex Miller -->
+<html>
+    <head>
+        <link rel="stylesheet" href="GradeCalculator.css">
+        <script src="GradeCalculator.js"></script>
+        <title>Grade Calculator</title>
+    </head>
+    <body>
+        <div id="Top">
+            <h1>Grade Calculator</h1>
+            <table>
+                <tr>
+                    <td><b><a href="GPACalculator.html">GPA Calculator</a></b></td>
+                    <td><b><a href="GradeCalculator.html">Grade Calculator</a></b></td>
+                </tr>
+            </table>
+            <hr>
+            <div id="lable">
+			     <lable id="numofassignments">Amount of assignments (1)</lable>
+			     <br>
+			    <button onclick="AddItem()" type="button">Add</button>
+			    <button onclick="DeleteItem()" type="button">Delete</button>
+				<button onclick="RefreshPercents()" type="button">Refresh Grades</button>
+        	</div>
+        </div>
+        <br>
+        <div id="Container">
+            <form id="AssignmentsForm">
+                <br>
+                <div id="assignments">
+                    <br>
+                    <lable>Grade of assignment ex: "50/60"</lable>
+                    <br>
+                    <input placeholder="50/60" id="assignment">
+                </div>
+            </form>
+            <form id="WeightsForm">
+                <br>
+                <br>
+                <div id="weights">
+                    <lable>Weight</lable>
+                    <br>
+                    <input placeholder="10" type="number">
+                </div>
+            </form>
+            <div id="GradePercentage">
+                <br>
+                <br>
+                <lable>Grade Percentage of Assignment</lable>
+                <div id="GPercent">0</div>
+            </div>
+        </div>
+        <br>
+        <div id="FinalGradeButton">
+            <button onclick="FinalGrade()" type="button">Calculate</button>
+        </div>
+        <br>
+        <div id="FinalGrade">
+
+        </div>
+    </body>
+
+</html>

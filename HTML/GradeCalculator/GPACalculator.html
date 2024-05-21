@@ -1,0 +1,66 @@
+<!-- Alex Miller -->
+<html>
+    <head>
+        <link rel="stylesheet" href="GradeCalculator.css">
+        <script src="GPACalculator.js"></script>
+        <title>GPA Calculator</title>
+    </head>
+    <body>
+        <div id="Top">
+            <h1>GPA Calculator</h1>
+            <table>
+                <tr>
+                    <td><b><a href="GPACalculator.html">GPA Calculator</a></b></td>
+                    <td><b><a href="GradeCalculator.html">Grade Calculator</a></b></td>
+                </tr>
+            </table>
+            <hr>
+            <div id="lable">
+			    <lable id="numofsemesters">Amount of semesters (1)</lable>
+			    <br>
+			    <button onclick="AddSemester()" type="button">Add Semester</button>
+				<button onclick="DeleteSemester()" type="button">Delete Semester</button>
+        	</div>
+        </div>
+        <br>
+        <div id="Container">
+            <form id="SemesterForm">
+                <br>
+                <br>
+                <br>
+                <lable>Semester #1</lable>
+                <button onclick="AddClass('1')" type="button">Add Class</button>
+                <button onclick="DeleteClass('1')" type="button">Delete Class</button>
+                <hr>
+                <br>
+                <select id="Semester">
+                    <option>A+</option>
+                    <option>A</option>
+                    <option>A-</option>
+                    <option>B+</option>
+                    <option>B</option>
+                    <option>B-</option>
+                    <option>C+</option>
+                    <option>C</option>
+                    <option>C-</option>
+                    <option>D+</option>
+                    <option>D</option>
+                    <option>D-</option>
+                    <option>F</option>
+                </select>
+                <input type="number" placeholder="0" id="1">
+            </form>
+            <div id="SemesterGPA">
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <div id="FinalGPAButt" style="text-align: center">
+            <button onclick="FinalGPA()" type="button">Calculate GPA</button>
+        </div>
+        <br>
+        <div id="FinalGPA"></div>
+    </body>
+
+</html>
