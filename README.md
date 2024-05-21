@@ -12,6 +12,9 @@ This is everything pretaining to Computer Science will go. This includes past pr
 * [Python](/Python)
 * [Documentations](/Documentations)
 
+<br>
+
+
 ### <u>Topics within these projects include (but not limited to):</u>
 
 * Database
