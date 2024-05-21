@@ -1,12 +1,14 @@
 # Computer Science Projects
 
-This is everything pretaining to Computer Science will go. This includes past projects, coursework, and documentations of things I find useful.
+This is everything pretaining to Computer Science will go. This includes past projects, coursework, and documentations of things I find useful. Everything here is just the source code.
+
+<br>
 
 ### <u>Types of projects included:</u>
 
-* [Java](/Java)
-* [C++](/C++)
-* [HTML](/HTML)
+* Java
+* C++
+* HTML
     * CSS
     * JavaScript
 * [Python](/Python)
@@ -17,7 +19,7 @@ This is everything pretaining to Computer Science will go. This includes past pr
 
 ### <u>Topics within these projects included (but not limited to):</u>
 
-* Database
+* [Database](/Database)
     * Linked List
     * Stack
     * Binary Tree
@@ -25,16 +27,17 @@ This is everything pretaining to Computer Science will go. This includes past pr
     * Agile
     * Design Patterns
 * Webiste Construction
-* Android
-* Networking
+* [Android](/Android)
+* [Networking](/Networking)
     * Server
     * Client
 * Reading/Writing Files
-* Sorting
+* [Sorting](/Sorting)
     * Merge Sort
     * Bubble Sort
     * Insertion Sort
     * Binary Search
 * Operator Overloading
 * OOP
-* Mathematics
+* [Mathematics](/Mathematics)
+* [PlayBox](/PlayBox) (playground and sandbox for random projects that don't fit)
