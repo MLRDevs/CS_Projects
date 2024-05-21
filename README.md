@@ -20,6 +20,7 @@ This is everything pretaining to Computer Science will go. This includes past pr
 * Database
     * Linked List
     * Stack
+    * Binary Tree
 * OOD
     * Agile
     * Design Patterns
