@@ -2,7 +2,7 @@
 
 This is everything pretaining to Computer Science will go. This includes past projects, coursework, and documentations of things I find useful.
 
-### <u>Types of projects include:</u>
+### <u>Types of projects included:</u>
 
 * [Java](/Java)
 * [C++](/C++)
@@ -15,7 +15,7 @@ This is everything pretaining to Computer Science will go. This includes past pr
 <br>
 
 
-### <u>Topics within these projects include (but not limited to):</u>
+### <u>Topics within these projects included (but not limited to):</u>
 
 * Database
     * Linked List
