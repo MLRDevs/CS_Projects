@@ -25,7 +25,7 @@ This is everything pretaining to Computer Science will go. This includes past pr
     * Binary Tree
 * OOD
     * Agile
-    * Design Patterns
+    * [Patterns](/Patterns)
 * Webiste Construction
 * [Android](/Android)
 * [Networking](/Networking)
