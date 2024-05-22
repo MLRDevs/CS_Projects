@@ -4,7 +4,7 @@ This is everything pretaining to Computer Science will go. This includes past pr
 
 <br>
 
-### <u>Types of projects included:</u>
+### <u>Types of languages:</u>
 
 * Java
 * C++
@@ -12,12 +12,11 @@ This is everything pretaining to Computer Science will go. This includes past pr
     * CSS
     * JavaScript
 * [Python](/Python)
-* [Documentations](/Documentations)
 
 <br>
 
 
-### <u>Topics within these projects included (but not limited to):</u>
+### <u>Topics within these projects (but not limited to):</u>
 
 * [Database](/Database)
     * Linked List
@@ -38,6 +37,7 @@ This is everything pretaining to Computer Science will go. This includes past pr
     * Insertion Sort
     * Binary Search
 * Operator Overloading
-* OOP
+* [OOP](/OOP)
 * [Mathematics](/Mathematics)
 * [PlayBox](/PlayBox) (playground and sandbox for random projects that don't fit)
+* [Documentations](/Documentations)
