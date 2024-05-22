@@ -30,7 +30,7 @@ This is everything pretaining to Computer Science will go. This includes past pr
 * [Networking](/Networking)
     * Server
     * Client
-* Reading/Writing Files
+* [Files](/Files)
 * [Sorting](/Sorting)
     * Merge Sort
     * Bubble Sort
