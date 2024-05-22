@@ -1,6 +1,6 @@
 # Computer Science Projects
 
-This is everything pretaining to Computer Science will go. This includes past projects, coursework, and documentations of things I find useful. Everything here is just the source code.
+This is everything pretaining to Computer Science will go. This includes past projects, coursework, and documentations of things I find useful. Everything here is just the source code and organized by topic then by language.
 
 <br>
 
