@@ -1,0 +1,2 @@
+# CS 426 - Operating Systems
+This course focused on how operating systems worked and topics such as threads, locking, memory

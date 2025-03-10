@@ -1,0 +1,34 @@
+/* Alex Miller */
+body {
+	background-color: tomato;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+ul {
+	background-color: black;
+	padding-left: 0px;
+	margin-top: 0px;
+}
+
+ul li a{
+	color: white;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+li {
+	display: inline-block;
+	width: 14%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+li:hover {
+	background-color: gray;
+}
+
+
+

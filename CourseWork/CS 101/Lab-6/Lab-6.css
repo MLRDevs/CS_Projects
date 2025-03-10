@@ -1,0 +1,27 @@
+/* Alex Miller */
+body {
+		background-color: #666;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+ul {
+		list-style-type: none;
+		width: 15%;
+}
+
+li {
+		background-color: black;
+		height: 45px;
+		border: solid white 1px;
+		text-align: center;
+		margin: 2px;
+}
+
+li:hover {
+		background-color: lightgray;
+}
+

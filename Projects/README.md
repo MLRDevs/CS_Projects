@@ -1,0 +1,2 @@
+# Random Projects
+This is where my outside of coursework projects go (besides Python) this includes any sorts of projects past and future I well venture down and accomplish with a variety of languages.

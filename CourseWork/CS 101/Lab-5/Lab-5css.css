@@ -1,0 +1,38 @@
+/* Alex Miller*/
+
+body {
+		background-color: lightblue;
+}
+
+#d1 ul {
+		list-style-type: square;
+		background-color: green;
+		height: 50%;
+		width: 200px;
+}
+
+#d1 ul li {
+		background-color: #666;
+		height: 50px;
+}
+
+#d1 ol {
+		list-style-type: upper-roman;
+		list-style-image: url(d.png);
+}
+
+#d2 ul {
+		list-style-type: none;
+		width: 20%;
+		background-color: red;
+		color: white;
+		border: solid black 1px;
+}
+
+#d2 ul li {
+		border: solid black 1px;
+}
+
+#d2 ol {
+		list-style-type: lower-alpha;
+}

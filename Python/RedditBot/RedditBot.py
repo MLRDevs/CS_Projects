@@ -6,11 +6,7 @@ import random
 
 #connect to reddit
 reddit = praw.Reddit (
-	client_id="Mzd7uPHWu2Lb2oMdAlVUuA",
-	client_secret="sjmN7h00SphaVbOul-Zem6dAejTcvw",
-	user_agent="testing12345_0",
-	username="Milleral9145",
-	password="Miller_3770"
+	# this content has been taken out since it's personal info 
 )
 
 #get the subreddit and open the file for writing

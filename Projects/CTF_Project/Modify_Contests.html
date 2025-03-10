@@ -1,0 +1,78 @@
+<!--
+  Jordan Latimer
+  Alex Miller
+
+  Modify Contest screen for Admin
+-->
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest Menu</title>
+    <link rel="stylesheet" href="Modify_Contests.css">
+    <script rel="text/javascript" src="Helpers.js"> </script>
+    <script rel="text/javascript" src="Modify_Contests.js"> </script>
+  </head>
+  <body>
+    <div id="Admin_Butts">
+
+      <!-- Buttons for contest type of stuff -->
+      <div id="Contest_Butts">
+        <input class="Add_Butt" type="button" onclick="Popup('Add_Contest.html', getEmail())" value="Add Contest">
+        <br>
+        <input type="button" onclick="setContestActive()" value="Set Contest active">
+        <br>
+        <input type="button" onclick="EndContest()" value="End Contest">
+        <br>
+        <input class="Delete_Butt" type="button" onclick="deleteContest();" value="Delete Contest">
+      </div>
+
+      <!-- Buttons for Flag type of stuff -->
+      <div id="Flag_Butts">
+        <input class="Add_Butt" type="button" onclick="PopupForFlag('Add_Flag.html')" value="Add Flag">
+        <br>
+        <input type="button" value="Edit Flag">
+        <br>
+        <input class="Delete_Butt" type="button" onclick="DeleteFlag()" value="Delete Flag">
+      </div>
+
+      <!-- Buttons for Image type of stuff -->
+      <div id="Image_Butts">
+        <input class="Add_Butt" type="button" value="Create Image" onclick="gotoPage('Create_Image.html?email=')">
+        <br>
+        <input type="button" value="All Images" onclick="Popup('All_Images.html', getEmail())">
+        <input class="Delete_Butt" type="button" onclick="DeleteImage()" value="Delete Image">
+      </div>
+    </div>
+
+    <!-- container holding all the content -->
+    <div class="menu-container">
+
+      <div class="contest-list">
+        <h2>Contests</h2>
+        <ul id="contestList">
+        <!-- Contests will be dynamically inserted here-->
+        </ul>
+      </div>
+
+      <div class="flags-container" id="flags-container">
+        <h2> Flags </h2>
+        <!-- Flags will appear here when a contest is clicked -->
+        <div id="flagList">
+          <!-- Flags will be listed here -->
+        </div>
+      </div>
+
+      <!-- Container for all of the images-->
+      <div id="images-container" class="images-container">
+        <h2> Images</h2>
+        <div id="imageList"> 
+          <!-- images will be listed here -->
+        </div>
+      </div>
+
+    </div>
+    <button id="Done_Butt" onclick="gotoPage('(A)Contest_Page.html?email=')">Done</button>
+  </body>
+</html>

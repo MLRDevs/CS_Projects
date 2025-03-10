@@ -1,0 +1,2 @@
+# CS 345 - Android Programming
+This course focuses in the development of Android applications using Android Studio with kotlin as the language. For the purpose of not having to navigate many folders, I have only included the kotlin files (.kt).

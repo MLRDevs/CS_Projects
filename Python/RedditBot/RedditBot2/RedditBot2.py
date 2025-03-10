@@ -17,11 +17,7 @@ def getpost(subr,usernum,comment): # gets the post from reddit and makes the ind
 
     # reddit credentials
     reddit = praw.Reddit(
-        client_id="Mzd7uPHWu2Lb2oMdAlVUuA",
-        client_secret = "sjmN7h00SphaVbOul-Zem6dAejTcvw",
-        password = "Miller_3770",
-        username = "Milleral9145",
-        user_agent = "Test"
+        # this content has been taken out due to having personal data
     )
 
     # get the subreddit, if it's private ask for a new one all over again

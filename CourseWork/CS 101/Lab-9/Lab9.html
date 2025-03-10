@@ -1,0 +1,48 @@
+<!--Alex Miller-->
+<!doctype html>
+<html>
+<head>
+<title>  Lab 9 </title>
+<style>
+ol {
+	color: white;
+}
+body {
+    background-color: black;
+	font-size: 20px;
+}
+img {
+    margin: 50px;
+    width: 250px;
+    heigt: 250px;
+}
+p{
+    height: 90px;
+	width: 70%;
+	margin-left: 170px;
+	background-color: navy;
+    color: white;
+	padding: 15px;
+	font-size: 20px;
+	text-align: center;
+	bonx-sizing: border-box;
+}
+</style>
+</head>
+<body>
+<h2> Lab 9 </h2>
+<img src="first.jpg" id="img1" onclick="document.getElementById('img1').style.height='300px';document.getElementById('img1').style.width='300px'">
+<img src="second.jpg" id="img2" onclick="document.getElementById('img2').style.border='solid white 5px';document.getElementById('img2').src='fourth.jpg'">
+<img src="third.jpg" id="img3" onclick="document.getElementById('img3').style.borderRadius='10px'">
+<ol>
+	When was the band formed?
+	<li id="o1" onclick="document.getElementById('o1').style.color='blue'">1985</li>
+	<li id="o2" onclick="document.getElementById('o2').style.color='red'">1984</li>
+	<li id="o3" onclick="document.getElementById('o3').style.color='red'">1986</li>
+</ol>
+<p id="p1" onclick="document.getElementById('p1').innerHTML='Abingdon, Oxfordshire'">
+	Where was the band formed?
+</p>
+
+</body>
+</html>

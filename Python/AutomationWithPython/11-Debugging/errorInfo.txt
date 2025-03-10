@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\mille\Documents\CS\Projects\Python\AutomationWithPython\11-Debugging.py", line 37, in <module>
-    raise Exception('This is an error message')
-Exception: This is an error message
