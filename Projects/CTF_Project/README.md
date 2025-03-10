@@ -4,4 +4,4 @@ This is one of the projects that I am most proud in. This was orignally a projec
 <br>
 
 For more details see this pdf:
-[Senior Project PDF](/Senior%20Project%20Proposal.pdf)
+[Senior Project PDF](/Senior_Project_Proposal.pdf)
