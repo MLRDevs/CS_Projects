@@ -1,0 +1,59 @@
+Methods:
+
+	main()
+		main method
+		
+	processcommand(cmd)
+		processes the command
+		
+	SearchType(wb, sheet)
+		searches for specific type
+		
+	PrintTypes(wb, sheet, c)
+		prints the specific types
+		
+	MtoH(l)
+		minutes to hours
+		
+	Equal(wb, sheet, tname, cell, i, ct)
+		searches for equal
+		
+	Greater(wb, sheet, tname, cell, i, ct)
+		searches for greater
+		
+	Less(wb, sheet, tname, cell, i, ct)
+		searches for less
+		
+	GreaterEqual(wb, sheet, tname, cell, i, ct)
+		searches for greater equal
+		
+	LessEqual(wb, sheet, tname, cell, i, ct)
+		searches for less equal
+		
+	Search(wb, sheet)
+		main search method
+		
+	Random(wb, sheet)
+		gets random movie
+		
+	RandomType(wb, sheet, t, c)
+		gets random movie of specific type
+		
+	PrintMovie(wb, sheet, i)
+		prints the movie
+		
+	ImportMovie(wb, sheet, i, m)
+		imports movie into excel file
+		
+	getIndex(wb)
+		gets the index of the movie in the file
+		
+	ClearSheet(wb)
+		clears the excel file
+		
+	PrintStyle(t)
+		printing style
+		
+	PrintErrors(t)
+		printing style
+	
